@@ -178,7 +178,7 @@ function search(searchData: SearchData): Promise<Format> {
   const significantNumber = phoneNumber?.number?.significant;
 
   return axios
-    .get(`https://search5-noneu.truecaller.com/v2/search`, {
+    .get(`https://profile4-noneu.truecaller.com/v1/default`, {
       params: {
         q: significantNumber,
         countryCode: phoneNumber.regionCode,
